@@ -266,6 +266,7 @@ public class QRCodeUtil {
 	}
 
 	public static void main(String[] args) throws Exception {
+		//text:我的简书地址
 		String text = "http://www.jianshu.com/p/c81acd869b1d";
 		QRCodeUtil.encode(text, "d:/images/my.jpg", "d:/images", true);
 	}
